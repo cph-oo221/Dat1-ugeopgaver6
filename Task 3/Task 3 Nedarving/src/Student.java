@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class Student extends Person
 {
-    ArrayList<String> passedCourses = new ArrayList<String>();
-    ArrayList<String> currentCourses = new ArrayList<String>();
+    ArrayList<String> passedCourses = new ArrayList<>();
+    ArrayList<String> currentCourses = new ArrayList<>();
 
    public Student(String name)
    {
@@ -19,7 +19,8 @@ public class Student extends Person
     {
          if (passedCourses.contains(course))
          {
-              return false;
+
+             return false;
          }
          else
          {
@@ -27,5 +28,7 @@ public class Student extends Person
               return true;
          }
     }
+
+
 
 }

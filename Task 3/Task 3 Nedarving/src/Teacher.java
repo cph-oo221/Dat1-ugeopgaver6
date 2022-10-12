@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class Teacher extends Person
 {
-    ArrayList<String> canTeach = new ArrayList<String>();
-    ArrayList<String> currentCourses = new ArrayList<String>();
+    ArrayList<String> canTeach = new ArrayList<>();
+    ArrayList<String> currentCourses = new ArrayList<>();
 
     // Lav om i konstruktørerne, så der skal gives en ArrayList af passedCourses eller canTeach med, når objektet oprettes.
     public Teacher(String name, ArrayList<String> canTeach)
@@ -23,6 +23,7 @@ public class Teacher extends Person
         }
         else
         {
+
             return false;
         }
     }
