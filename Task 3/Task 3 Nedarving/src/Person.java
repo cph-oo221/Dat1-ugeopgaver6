@@ -17,7 +17,10 @@ public class Person
         this.name = name;
     }
 
-// Lav derudover metoden boolean addCourse(String course).
-    public
+
+    public boolean addCourse(String course)
+    {
+        return true;
+    }
 
 }
