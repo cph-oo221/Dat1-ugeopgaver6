@@ -1,2 +1,10 @@
 # Dat1-ugeopgaver6
- Torsdagsopgaver
+Torsdagsopgaver
+
+Oskar Daniel Olsen
+
+cph-oo221@cphbusiness.dk
+
+
+
+
