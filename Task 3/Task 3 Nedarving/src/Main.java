@@ -51,7 +51,7 @@ public class Main
 
         //3.7 make for loop for persons
         // every time the loop runs, it should print out the name of the person if addCourse returns false
-        
+
 
         for (Person p : persons)
         {
