@@ -10,7 +10,7 @@ public class Main
 
         // make a number of students and teachers
         Teacher teacher1 = new Teacher("Lars", new ArrayList<String>(Arrays.asList("Math", "English", "History")));
-        Teacher teacher2 = new Teacher("Peter", new ArrayList<String>(Arrays.asList("Math", "English", "History")));
+        Teacher teacher2 = new Teacher("Peter", new ArrayList<String>(Arrays.asList("Math", "Java 1.0", "History")));
 
         Student student1 = new Student("Hans");
         Student student2 = new Student("Fie");
@@ -18,6 +18,7 @@ public class Main
         // add some courses to the students and teachers
 
         // teacher1: Math, English, History
+        /*
         teacher1.addCourse("Math");
         teacher1.addCourse("English");
         teacher1.addCourse("History");
@@ -26,7 +27,7 @@ public class Main
         teacher2.addCourse("Math");
         teacher2.addCourse("English");
         teacher2.addCourse("History");
-
+        */
         // student: addCourse
         student1.addCourse("Math");
         student1.addCourse("English");
@@ -50,14 +51,15 @@ public class Main
 
         //3.7 make for loop for persons
         // every time the loop runs, it should print out the name of the person if addCourse returns false
+        
+
         for (Person p : persons)
         {
             if (!p.addCourse("Java 1.0"))
             {
-
-
                 if (p instanceof Student)
                 {
+                    //System.out.println(((Student) p).getCourses());
                     System.out.println("Student: " + p.getName() + " har allerede bestået dette kursus");
                 } else
                 {

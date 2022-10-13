@@ -14,21 +14,21 @@ public class Student extends Person
    // 3.4: make a method that's overrids addcourse
    // remaber that students course can be added to passedCoursses
    // because the course have all-rdy been passed
-   @Override
+    @Override
     public boolean addCourse(String course)
     {
-         if (passedCourses.contains(course))
+         if (this.passedCourses.contains(course))
          {
-
              return false;
          }
          else
          {
-              currentCourses.add(course);
+              this.currentCourses.add(course);
               return true;
          }
     }
 
-
-
+    public ArrayList<String> getCourses() {
+       return this.currentCourses;
+    }
 }
