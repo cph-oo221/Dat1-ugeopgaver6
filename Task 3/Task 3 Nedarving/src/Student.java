@@ -2,18 +2,15 @@ import java.util.ArrayList;
 
 public class Student extends Person
 {
-    ArrayList<String> passedCourses = new ArrayList<>();
+    ArrayList<String> passedCourses;
     ArrayList<String> currentCourses = new ArrayList<>();
 
-   public Student(String name)
+   public Student(String name, ArrayList<String> passedCourses)
    {
        super(name);
-
+       this.passedCourses = passedCourses;
    }
 
-   // 3.4: make a method that's overrids addcourse
-   // remaber that students course can be added to passedCoursses
-   // because the course have all-rdy been passed
     @Override
     public boolean addCourse(String course)
     {
