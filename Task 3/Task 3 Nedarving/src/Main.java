@@ -28,7 +28,6 @@ public class Main
             {
                 if (p instanceof Student)
                 {
-                    //System.out.println(((Student) p).getCourses());
                     System.out.println("Student: " + p.getName() + " har allerede bestået dette kursus");
                 } else
                 {
